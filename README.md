@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# Plateforme e-commerce SaaS – CYNA IT
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Projet réalisé dans le cadre du Bachelor Informatique – Sup de Vinci (2024-2025)
 
-## Get started
+🎯 Objectif
+Développer une plateforme e-commerce spécialisée en cybersécurité avec :
+Gestion de comptes utilisateurs
+Paiement en ligne (Stripe)
+Interface d’administration
+Chatbot React
+Application mobile
 
-1. Install dependencies
+👥 Équipe
+William DA SILVA – Chef de projet
+Ali RASOULI – Développeur BDD & paiements
+Dylan WAZIRI – Développeur Frontend
+Mattéo BALMOUSSIERE – Développeur Mobile & Backoffice
 
-   ```bash
-   npm install
-   ```
+🛠️ Technologies
+Frontend : React.js
+Backend : Node.js / PHP
+Mobile : React Native (si applicable)
+BDD : MySQL
+Outils : Trello, Discord, GitHub
 
-2. Start the app
+📁 Structure
+Voir le dossier docs/ pour tous les livrables du projet.
 
-   ```bash
-    npx expo start
-   ```
+📅 Organisation
+Méthode Agile avec sprints hebdomadaires.
+Suivi de projet via Trello.
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+📦 Lancer le projet
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+cd frontend
+npm install
+npm start
+📁 cyna-ecommerce-project/
+│
+├── 📁 frontend/                 # Le code React du site
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.jsx
+│   │   └── index.js
+│   └── package.json
+│
+├── 📁 backend/                  # Backend en Node.js ou PHP 
+│   ├── api/
+│   ├── controllers/
+│   ├── config/
+│   └── server.js
+│
+├── 📁 mobile/                   # (Si vous avez une app mobile)
+│   └── [code de l'application mobile]
+│
+├── 📁 docs/                     # Tous les documents importants
+│   ├── 01_cadrage.pdf
+│
+│
+├── 📁 assets/                   # Images, logos, vidéos si besoin
+│
+├── 📁 .github/
