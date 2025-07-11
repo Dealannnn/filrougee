@@ -10,7 +10,7 @@ Interface d’administration
 Chatbot React
 Application mobile
 
-👥 Équipe
+👥 Équipe 
 William DA SILVA – Chef de projet
 Ali RASOULI – Développeur BDD & paiements
 Dylan WAZIRI – Développeur Frontend
@@ -31,34 +31,3 @@ Méthode Agile avec sprints hebdomadaires.
 Suivi de projet via Trello.
 
 📦 Lancer le projet
-```bash
-cd frontend
-npm install
-npm start
-📁 cyna-ecommerce-project/
-│
-├── 📁 frontend/                 # Le code React du site
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   └── index.js
-│   └── package.json
-│
-├── 📁 backend/                  # Backend en Node.js ou PHP 
-│   ├── api/
-│   ├── controllers/
-│   ├── config/
-│   └── server.js
-│
-├── 📁 mobile/                   # (Si vous avez une app mobile)
-│   └── [code de l'application mobile]
-│
-├── 📁 docs/                     # Tous les documents importants
-│   ├── 01_cadrage.pdf
-│
-│
-├── 📁 assets/                   # Images, logos, vidéos si besoin
-│
-├── 📁 .github/
