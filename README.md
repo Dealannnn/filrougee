@@ -31,3 +31,7 @@ Méthode Agile avec sprints hebdomadaires.
 Suivi de projet via Trello.
 
 📦 Lancer le projet
+```bash
+cd frontend
+npm install
+npm start
